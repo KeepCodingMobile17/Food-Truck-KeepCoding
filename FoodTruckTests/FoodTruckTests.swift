@@ -56,4 +56,8 @@ final class TruckModelTests: XCTestCase {
         // Then
         XCTAssertEqual(sut.filteredDonuts, [donut])
     }
+    
+    func test_unit_thatFails() {
+        XCTFail("Expected to be successful")
+    }
 }
