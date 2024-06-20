@@ -3,11 +3,7 @@
 #  ci_pre_xcodebuild.sh
 #  Food Truck
 
-echo "Setting Food Truck Beta App Icon"
-APP_ICON_PATH=$CI_WORKSPACE/Shared/Assets.xcassets/AppIcon.appiconset
-
-# Remove existing App Icon
+echo 'Change Beta App Icon'
+APP_ICON_PATH="$CI_PRIMARY_REPOSITORY_PATH/FoodTruck/Assets.xcassets/AppIcon.appiconset"
 rm -rf $APP_ICON_PATH
-
-# Replace with Beta App Icon
-mv "$CI_WORKSPACE/ci_scripts/AppIcon-Beta.appiconset" $APP_ICON_PATH
+mv "$CI_PRIMARY_REPOSITORY_PATH/ci_scripts/AppIcon-Beta.appiconset" $APP_ICON_PATH
