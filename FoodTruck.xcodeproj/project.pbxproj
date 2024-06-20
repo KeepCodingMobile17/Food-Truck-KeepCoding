@@ -55,6 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57660A472C24ABE100A7BBE0 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		57660A482C24ABE100A7BBE0 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		57660A492C24ABE100A7BBE0 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		57660A4A2C24ABE100A7BBE0 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		57660A4B2C24ABE100A7BBE0 /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		57660A4C2C24ABE100A7BBE0 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		57660A4D2C24ABE100A7BBE0 /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		57660A4E2C24ABE100A7BBE0 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		57660A4F2C24ABE100A7BBE0 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		57660A502C24ABE100A7BBE0 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		57660A512C24ABE100A7BBE0 /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		57660A522C24ABE100A7BBE0 /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		57660A542C24ABE100A7BBE0 /* ci_pre_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_pre_xcodebuild.sh; sourceTree = "<group>"; };
 		57A3937A2C20A88F0003F244 /* TruckDonutsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckDonutsCard.swift; sourceTree = "<group>"; };
 		57A3937D2C20A9C40003F244 /* DonutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutView.swift; sourceTree = "<group>"; };
 		57A3937F2C20AF910003F244 /* FoodTruckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckModel.swift; sourceTree = "<group>"; };
@@ -113,6 +126,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57660A532C24ABE100A7BBE0 /* AppIcon-Beta.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				57660A472C24ABE100A7BBE0 /* 29.png */,
+				57660A482C24ABE100A7BBE0 /* 40.png */,
+				57660A492C24ABE100A7BBE0 /* 57.png */,
+				57660A4A2C24ABE100A7BBE0 /* 58.png */,
+				57660A4B2C24ABE100A7BBE0 /* 60.png */,
+				57660A4C2C24ABE100A7BBE0 /* 80.png */,
+				57660A4D2C24ABE100A7BBE0 /* 87.png */,
+				57660A4E2C24ABE100A7BBE0 /* 114.png */,
+				57660A4F2C24ABE100A7BBE0 /* 120.png */,
+				57660A502C24ABE100A7BBE0 /* 180.png */,
+				57660A512C24ABE100A7BBE0 /* 1024.png */,
+				57660A522C24ABE100A7BBE0 /* Contents.json */,
+			);
+			path = "AppIcon-Beta.appiconset";
+			sourceTree = "<group>";
+		};
+		57660A552C24ABE100A7BBE0 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				57660A532C24ABE100A7BBE0 /* AppIcon-Beta.appiconset */,
+				57660A542C24ABE100A7BBE0 /* ci_pre_xcodebuild.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		57A393792C20A86F0003F244 /* DonutsCard */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +190,7 @@
 		57C195452C1D63B700B82CEF = {
 			isa = PBXGroup;
 			children = (
+				57660A552C24ABE100A7BBE0 /* ci_scripts */,
 				57C195502C1D63B700B82CEF /* FoodTruck */,
 				57C195612C1D63B800B82CEF /* FoodTruckTests */,
 				57C1956B2C1D63B800B82CEF /* FoodTruckUITests */,
