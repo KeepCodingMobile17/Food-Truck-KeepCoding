@@ -4,7 +4,7 @@
 #  Food Truck
 
 echo 'Change Beta App Icon'
-APP_ICON_PATH="$CI_PRIMARY_REPOSITORY_PATH/FoodTruck/Assets.xcassets/AppIcon.appiconset"
-echo APP_ICON_PATH
+APP_ICON_PATH="/Volumes/workspace/repository/FoodTruck/Assets.xcassets/AppIcon.appiconset"
+echo $APP_ICON_PATH
 rm -rf $APP_ICON_PATH
-mv "$CI_PRIMARY_REPOSITORY_PATH/ci_scripts/AppIcon-Beta.appiconset" $APP_ICON_PATH
+mv "/Volumes/workspace/repository/ci_scripts/AppIcon.appiconset" $APP_ICON_PATH

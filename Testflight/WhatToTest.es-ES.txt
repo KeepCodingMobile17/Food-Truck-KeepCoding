@@ -1,2 +1,17 @@
-#  <#Title#>
+1. Installation and Setup:
 
+    •    Ensure the app installs correctly on various devices.
+    •    Verify the app opens and initializes without crashes.
+    •    Test the sign-up and login processes, including social media logins.
+
+2. Real-Time Food Truck Locator:
+
+    •    Check the accuracy of the food truck’s location on the map.
+    •    Ensure location updates in real-time as the truck moves.
+    •    Verify notifications for nearby food truck locations.
+
+3. Gourmet Donut Menu:
+
+    •    Browse the full donut menu and ensure all items are displayed correctly.
+    •    Check the availability and details of seasonal and limited-edition donuts.
+    •    Verify nutritional information and descriptions for each donut.

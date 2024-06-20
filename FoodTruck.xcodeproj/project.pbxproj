@@ -75,6 +75,8 @@
 		57A393832C20B2280003F244 /* DonutGalleryGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutGalleryGrid.swift; sourceTree = "<group>"; };
 		57A393862C20B95B0003F244 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		57A3938F2C20C9350003F244 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		57A49D982C24B0990007AF6E /* WhatToTest.es-ES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WhatToTest.es-ES.txt"; sourceTree = "<group>"; };
+		57A49D992C24B11D0007AF6E /* ci_post_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_xcodebuild.sh; sourceTree = "<group>"; };
 		57C1954E2C1D63B700B82CEF /* FoodTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C195512C1D63B700B82CEF /* FoodTruckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckApp.swift; sourceTree = "<group>"; };
 		57C195532C1D63B700B82CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,7 +128,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		57660A532C24ABE100A7BBE0 /* AppIcon-Beta.appiconset */ = {
+		57660A532C24ABE100A7BBE0 /* AppIcon.appiconset */ = {
 			isa = PBXGroup;
 			children = (
 				57660A472C24ABE100A7BBE0 /* 29.png */,
@@ -142,14 +144,15 @@
 				57660A512C24ABE100A7BBE0 /* 1024.png */,
 				57660A522C24ABE100A7BBE0 /* Contents.json */,
 			);
-			path = "AppIcon-Beta.appiconset";
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 		57660A552C24ABE100A7BBE0 /* ci_scripts */ = {
 			isa = PBXGroup;
 			children = (
-				57660A532C24ABE100A7BBE0 /* AppIcon-Beta.appiconset */,
+				57660A532C24ABE100A7BBE0 /* AppIcon.appiconset */,
 				57660A542C24ABE100A7BBE0 /* ci_pre_xcodebuild.sh */,
+				57A49D992C24B11D0007AF6E /* ci_post_xcodebuild.sh */,
 			);
 			path = ci_scripts;
 			sourceTree = "<group>";
@@ -187,9 +190,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		57A49D972C24B0630007AF6E /* Testflight */ = {
+			isa = PBXGroup;
+			children = (
+				57A49D982C24B0990007AF6E /* WhatToTest.es-ES.txt */,
+			);
+			path = Testflight;
+			sourceTree = "<group>";
+		};
 		57C195452C1D63B700B82CEF = {
 			isa = PBXGroup;
 			children = (
+				57A49D972C24B0630007AF6E /* Testflight */,
 				57660A552C24ABE100A7BBE0 /* ci_scripts */,
 				57C195502C1D63B700B82CEF /* FoodTruck */,
 				57C195612C1D63B800B82CEF /* FoodTruckTests */,

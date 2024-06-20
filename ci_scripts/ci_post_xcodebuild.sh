@@ -2,6 +2,7 @@
 
 #  ci_post_xcodebuild.sh
 #  FoodTruck
-#
-#  Created by Adrián Silva on 20/6/24.
-#  
+
+#TESTFLIGHT_DIR_PATH=../TestFlight
+#mkdir $TESTFLIGHT_DIR_PATH
+#git fetch --deepen 3 && git log -3 --pretty=format:"%s" >! $TESTFLIGHT_DIR_PATH/WhatToTest.en-US.txt
