@@ -63,6 +63,19 @@
 		57A393862C20B95B0003F244 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		57A3938F2C20C9350003F244 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		57A49D982C24B0990007AF6E /* WhatToTest.es-ES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "WhatToTest.es-ES.txt"; sourceTree = "<group>"; };
+		57A49DAC2C24B72F0007AF6E /* ci_pre_xcodebuild.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_pre_xcodebuild.sh; sourceTree = "<group>"; };
+		57A49DAD2C24B7850007AF6E /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		57A49DAE2C24B7850007AF6E /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
+		57A49DAF2C24B7850007AF6E /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		57A49DB02C24B7850007AF6E /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		57A49DB12C24B7850007AF6E /* 60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 60.png; sourceTree = "<group>"; };
+		57A49DB22C24B7850007AF6E /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		57A49DB32C24B7850007AF6E /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		57A49DB42C24B7850007AF6E /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		57A49DB52C24B7850007AF6E /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		57A49DB62C24B7850007AF6E /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		57A49DB72C24B7850007AF6E /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		57A49DB82C24B7850007AF6E /* Contents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		57C1954E2C1D63B700B82CEF /* FoodTruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C195512C1D63B700B82CEF /* FoodTruckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckApp.swift; sourceTree = "<group>"; };
 		57C195532C1D63B700B82CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,9 +168,38 @@
 			path = Testflight;
 			sourceTree = "<group>";
 		};
+		57A49DAB2C24B71D0007AF6E /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				57A49DB92C24B7850007AF6E /* AppIcon.appiconset */,
+				57A49DAC2C24B72F0007AF6E /* ci_pre_xcodebuild.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
+		57A49DB92C24B7850007AF6E /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				57A49DAD2C24B7850007AF6E /* 29.png */,
+				57A49DAE2C24B7850007AF6E /* 40.png */,
+				57A49DAF2C24B7850007AF6E /* 57.png */,
+				57A49DB02C24B7850007AF6E /* 58.png */,
+				57A49DB12C24B7850007AF6E /* 60.png */,
+				57A49DB22C24B7850007AF6E /* 80.png */,
+				57A49DB32C24B7850007AF6E /* 87.png */,
+				57A49DB42C24B7850007AF6E /* 114.png */,
+				57A49DB52C24B7850007AF6E /* 120.png */,
+				57A49DB62C24B7850007AF6E /* 180.png */,
+				57A49DB72C24B7850007AF6E /* 1024.png */,
+				57A49DB82C24B7850007AF6E /* Contents.json */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
 		57C195452C1D63B700B82CEF = {
 			isa = PBXGroup;
 			children = (
+				57A49DAB2C24B71D0007AF6E /* ci_scripts */,
 				57A49D972C24B0630007AF6E /* Testflight */,
 				57C195502C1D63B700B82CEF /* FoodTruck */,
 				57C195612C1D63B800B82CEF /* FoodTruckTests */,
